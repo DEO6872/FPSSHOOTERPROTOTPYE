@@ -1,0 +1,874 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.26f1 (ec6cd8118806) revision 15494360'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 32632 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/k10lab-p4/Documents/GitHub/FPSSHOOTERPROTOTPYE
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+65006
+Successfully changed project path to: C:/Users/k10lab-p4/Documents/GitHub/FPSSHOOTERPROTOTPYE
+C:/Users/k10lab-p4/Documents/GitHub/FPSSHOOTERPROTOTPYE
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24676] Host "[IP] 10.120.100.192 [Port] 0 [Flags] 2 [Guid] 797681783 [EditorId] 797681783 [Version] 1048832 [Id] WindowsEditor(7,WHS-K10-37) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24676] Host "[IP] 10.120.100.192 [Port] 0 [Flags] 2 [Guid] 797681783 [EditorId] 797681783 [Version] 1048832 [Id] WindowsEditor(7,WHS-K10-37) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 23.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.26f1 (ec6cd8118806)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/k10lab-p4/Documents/GitHub/FPSSHOOTERPROTOTPYE/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   NVIDIA
+    VRAM:     10078 MB
+    Driver:   30.0.14.7262
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011116 seconds.
+- Loaded All Assemblies, in  0.372 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.241 seconds
+Domain Reload Profiling: 611ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (127ms)
+		LoadAssemblies (141ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (123ms)
+				TypeCache.ScanAssembly (110ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (242ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (190ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.002 seconds
+Refreshing native plugins compatible for Editor in 11.12 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.525 seconds
+Domain Reload Profiling: 1524ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (746ms)
+		LoadAssemblies (688ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (139ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (525ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (388ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (298ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 11.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3108 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.8 KB). Loaded Objects now: 3573.
+Memory consumption went from 122.8 MB to 122.7 MB.
+Total: 3.441700 ms (FindLiveObjects: 0.286400 ms CreateObjectMapping: 0.281800 ms MarkObjects: 2.774400 ms  DeleteObjects: 0.097500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 364600.320897 seconds.
+  path: Assets/nappin/Weapon Props Softpack/Materials/(Mat)GradientPurple_Reflective.mat
+  artifactKey: Guid(45a792c11e8be4f45897cb0dfb8668e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Weapon Props Softpack/Materials/(Mat)GradientPurple_Reflective.mat using Guid(45a792c11e8be4f45897cb0dfb8668e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7f96f676959a9c00d593668fe929e9') in 0.106379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Ball Pack/Models/Materials/BombBall.mat
+  artifactKey: Guid(7717d08fdcc532b449044fc4b21a7b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ball Pack/Models/Materials/BombBall.mat using Guid(7717d08fdcc532b449044fc4b21a7b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450c6b15434c848d11f9673f3948a096') in 0.137262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/nappin/Weapon Props Softpack/Materials/(Mat)GradientWaterGreen_Reflective.mat
+  artifactKey: Guid(d708c806f6d31a94f9feb1fe5581849d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Weapon Props Softpack/Materials/(Mat)GradientWaterGreen_Reflective.mat using Guid(d708c806f6d31a94f9feb1fe5581849d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6a15fb972ba9ece4a5b9d7fa52c52d') in 0.019493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/nappin/Weapon Props Softpack/Materials/(Mat)GradientGreen.mat
+  artifactKey: Guid(be2c8fb884201bb42b1a12cf04d98c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Weapon Props Softpack/Materials/(Mat)GradientGreen.mat using Guid(be2c8fb884201bb42b1a12cf04d98c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885b42edd3780e23f039ef15d85efdcc') in 0.015473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Ball Pack/Models/Materials/WheelBall.mat
+  artifactKey: Guid(40db05b0756f19c43ae471505d9b8ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ball Pack/Models/Materials/WheelBall.mat using Guid(40db05b0756f19c43ae471505d9b8ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f23924e18c508383d2e5ee8cf6c084') in 0.111465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Ball Pack/Models/Materials/AtomBall-No Name.mat
+  artifactKey: Guid(62465cc3dfb90964f960abb333cbae3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ball Pack/Models/Materials/AtomBall-No Name.mat using Guid(62465cc3dfb90964f960abb333cbae3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7eb3f6930555c459585626d0b0fb45') in 0.008877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/nappin/Weapon Props Softpack/Materials/(Mat)GradientWhite.mat
+  artifactKey: Guid(949228b839eae764d9c7c5452fab706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Weapon Props Softpack/Materials/(Mat)GradientWhite.mat using Guid(949228b839eae764d9c7c5452fab706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b6419e255bc40d8d9193b1df590bdb') in 0.013090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/nappin/Weapon Props Softpack/Materials/(Mat)GradientYellow.mat
+  artifactKey: Guid(6bf9f62666c770c4dae1c5cb7442bfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Weapon Props Softpack/Materials/(Mat)GradientYellow.mat using Guid(6bf9f62666c770c4dae1c5cb7442bfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760b26a4755cbce09e22c29f738f1a73') in 0.014454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 435.163135 seconds.
+  path: Assets/Junkyard models/Models/Bath/Materials/Bath.mat
+  artifactKey: Guid(80a0db094f8828840b5c6f0d4b453af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Bath/Materials/Bath.mat using Guid(80a0db094f8828840b5c6f0d4b453af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd552103b26f190a5be09bc24fd16141') in 0.081517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Junkyard models/Models/Bench/Materials/Bench.mat
+  artifactKey: Guid(7ddbfdbad210b36449af14ece0420265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Bench/Materials/Bench.mat using Guid(7ddbfdbad210b36449af14ece0420265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef37b76c859241e497bd9368656e956') in 0.010187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Junkyard models/Models/Bus/Materials/Bus.mat
+  artifactKey: Guid(cd024456fac6bc548828124667e2268f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Bus/Materials/Bus.mat using Guid(cd024456fac6bc548828124667e2268f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129075369aa48a3b09bf07568b0d35ea') in 0.011735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Junkyard models/Models/Box/Materials/Box.mat
+  artifactKey: Guid(53cb348479a2d124182187d4ed9d0e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Box/Materials/Box.mat using Guid(53cb348479a2d124182187d4ed9d0e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd644c5e54dde653b7416317435ad8e66') in 0.071852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.340008 seconds.
+  path: Assets/Junkyard models/Models/Cactus/Materials/Cactus.mat
+  artifactKey: Guid(148b46e29fb905545bc2d7472506155a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Cactus/Materials/Cactus.mat using Guid(148b46e29fb905545bc2d7472506155a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe842c2314c2d5e7625d56a4dfa6937') in 0.008327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Junkyard models/Models/Car/Materials/Car0.mat
+  artifactKey: Guid(7a745275c04039f489a618b47f773951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Car/Materials/Car0.mat using Guid(7a745275c04039f489a618b47f773951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdccf7a8666508052f575c5fb5f483d3') in 0.013531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Junkyard models/Models/Cargo/Materials/Cargo1.mat
+  artifactKey: Guid(a64cc4d71e163054888ceebb51a5d33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Cargo/Materials/Cargo1.mat using Guid(a64cc4d71e163054888ceebb51a5d33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a001c88a595501e1728378139134c4') in 0.009224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Junkyard models/Models/Cargo/Materials/Cargo0.mat
+  artifactKey: Guid(f0b0c47f67f023543935d821921175be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Cargo/Materials/Cargo0.mat using Guid(f0b0c47f67f023543935d821921175be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac32684cda7b0534bb0c6a2796e2d12') in 0.008434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Junkyard models/Models/Chair/Materials/Chair.mat
+  artifactKey: Guid(015510900d03c8445a510dbdf9162db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Chair/Materials/Chair.mat using Guid(015510900d03c8445a510dbdf9162db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9cc4c2ae47bbc174fea3db9d158943') in 0.008790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Junkyard models/Models/Electric/Materials/Electric03.mat
+  artifactKey: Guid(3dc5c84cd1ad60841bf557b26ea25600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Electric/Materials/Electric03.mat using Guid(3dc5c84cd1ad60841bf557b26ea25600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b19aca262139e482ca8e0430809b63') in 0.009031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Junkyard models/Scenes/Models/Materials/FancePole.mat
+  artifactKey: Guid(9cfdef9dcb8cedf40b733c32f0c29d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Scenes/Models/Materials/FancePole.mat using Guid(9cfdef9dcb8cedf40b733c32f0c29d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5e060b5e38af0ca1b8166f3929d781') in 0.012733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Junkyard models/Scenes/Models/Materials/House.mat
+  artifactKey: Guid(470f1f7f7ad0b444997afaed531bc01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Scenes/Models/Materials/House.mat using Guid(470f1f7f7ad0b444997afaed531bc01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d4b5bd50c75ec8e832a624b23cacfb') in 0.009308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Junkyard models/Models/Part/Materials/Part01.mat
+  artifactKey: Guid(9a0c6f33458ae41479151182f92cf578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Part/Materials/Part01.mat using Guid(9a0c6f33458ae41479151182f92cf578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45b5011de61dc9e93e32202833be649') in 0.009017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Junkyard models/Models/Reel/Materials/Reel.mat
+  artifactKey: Guid(f77b6b6c3d9700248b125a55e4a1d1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Reel/Materials/Reel.mat using Guid(f77b6b6c3d9700248b125a55e4a1d1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bde4fe301fafa11d0f035e63f23cda8') in 0.010316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Junkyard models/Models/Locker/Materials/Locker.mat
+  artifactKey: Guid(2938addacd31a834594405aeabfc5859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Locker/Materials/Locker.mat using Guid(2938addacd31a834594405aeabfc5859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4c6849580a0dcaca3d55414cf39405') in 0.010704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Junkyard models/Models/GasPump/Materials/GasPump.mat
+  artifactKey: Guid(f5b72108355cd6b43b8af8ab4872308f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/GasPump/Materials/GasPump.mat using Guid(f5b72108355cd6b43b8af8ab4872308f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6735dfabb1ab234077b9948ed5819924') in 0.009643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Junkyard models/Models/Pallet/Materials/PalletBricks.mat
+  artifactKey: Guid(3833befcd02db464e94e583197dec00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Pallet/Materials/PalletBricks.mat using Guid(3833befcd02db464e94e583197dec00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a242227100442c6dc9a1eaf6a82d5a') in 0.008436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Junkyard models/Models/Rack/Materials/Rack.mat
+  artifactKey: Guid(2c1ca12288e9368499347e7685de6537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Rack/Materials/Rack.mat using Guid(2c1ca12288e9368499347e7685de6537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5dd0abea64e1b69fd9e207c86b94eb9') in 0.011196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Junkyard models/Models/Pallet/Materials/PalletBoxes.mat
+  artifactKey: Guid(831d9cea0874f2242ae7f48be7852daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Pallet/Materials/PalletBoxes.mat using Guid(831d9cea0874f2242ae7f48be7852daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4617ffb592b611e5e71f72cd365c9f9e') in 0.008252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Junkyard models/Models/Fance/Materials/Fence.mat
+  artifactKey: Guid(ac9540e82f90d3147a73cb2c2ed3f035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Fance/Materials/Fence.mat using Guid(ac9540e82f90d3147a73cb2c2ed3f035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2de7ec59c8e69e5a5659bdc29b2d3e') in 0.010671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.050412 seconds.
+  path: Assets/nappin/Weapon Props Softpack/Models/(Msh)Hook.fbx
+  artifactKey: Guid(b7d5c64b6fef6a8439cf5ba788fc200d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Weapon Props Softpack/Models/(Msh)Hook.fbx using Guid(b7d5c64b6fef6a8439cf5ba788fc200d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74c9d52cefa7fad0267a424cc621902') in 0.038023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/nappin/Weapon Props Softpack/Models/(Msh)Kunai.fbx
+  artifactKey: Guid(7f7310e454039fc45bfaacc8bae90daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Weapon Props Softpack/Models/(Msh)Kunai.fbx using Guid(7f7310e454039fc45bfaacc8bae90daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2042a001e693bf0ccced95de1394ab9') in 0.016385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Ball Pack/Models/AtomBall.fbx
+  artifactKey: Guid(4a1142b17f64bbc40871f76529421f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ball Pack/Models/AtomBall.fbx using Guid(4a1142b17f64bbc40871f76529421f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8104eca9592fa61b9e60fb909b263b23') in 0.025537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Ball Pack/Models/BombBall.fbx
+  artifactKey: Guid(38972d9a807375f4fbdbf2e076aa183f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ball Pack/Models/BombBall.fbx using Guid(38972d9a807375f4fbdbf2e076aa183f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730e7ca0c319cef6368f33f5553c0cec') in 0.027064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/nappin/Weapon Props Softpack/Models/(Msh)LongSword.fbx
+  artifactKey: Guid(8defcba0da712e24f8be11cc7ca2a322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Weapon Props Softpack/Models/(Msh)LongSword.fbx using Guid(8defcba0da712e24f8be11cc7ca2a322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b834778caed8dfd9f85798ef871d26') in 0.015201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/nappin/Weapon Props Softpack/Models/(Msh)RocketLauncher.fbx
+  artifactKey: Guid(72a471f939b58d740bf132cda99d92c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Weapon Props Softpack/Models/(Msh)RocketLauncher.fbx using Guid(72a471f939b58d740bf132cda99d92c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc27898d13177311e921f426b9bfc11c') in 0.020542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Junkyard models/Models/Box/Box2.obj
+  artifactKey: Guid(2eeeb92ce7b7a6a4792c1745f1191c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Box/Box2.obj using Guid(2eeeb92ce7b7a6a4792c1745f1191c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57bad97167187b5bcba7d1ff64d9b2d4') in 0.018055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowPolyFPSLite/Models/Brick_01.fbx
+  artifactKey: Guid(950917a4ef28cca44a20d771d5324b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPSLite/Models/Brick_01.fbx using Guid(950917a4ef28cca44a20d771d5324b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945fb812b7cf4f74496bb9f729285f7d') in 0.010831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/nappin/Weapon Props Softpack/Models/(Msh)Trident.fbx
+  artifactKey: Guid(53c6d4163360b014daced0b0690eb3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Weapon Props Softpack/Models/(Msh)Trident.fbx using Guid(53c6d4163360b014daced0b0690eb3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6556b6f56fa68f341db37eeea74897f') in 0.016222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/nappin/Weapon Props Softpack/Models/(Msh)Pickaxe.fbx
+  artifactKey: Guid(a86256b05385e20438902c6fa3ef7815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Weapon Props Softpack/Models/(Msh)Pickaxe.fbx using Guid(a86256b05385e20438902c6fa3ef7815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2aafb758d3d318cfca6c7310a4a146') in 0.014959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/nappin/Weapon Props Softpack/Models/(Msh)Katana.fbx
+  artifactKey: Guid(e1ce3c0e2486703489a57079b2cfc2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Weapon Props Softpack/Models/(Msh)Katana.fbx using Guid(e1ce3c0e2486703489a57079b2cfc2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d64e63e07caeb049f24aa72758d034') in 0.014817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ball Pack/Models/BuckyBall.fbx
+  artifactKey: Guid(a97bdcf094fff104d9f67b004b505dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ball Pack/Models/BuckyBall.fbx using Guid(a97bdcf094fff104d9f67b004b505dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f516c6968c1d90f0854930d3ab8224') in 0.022775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Junkyard models/Models/Bush/Bush02.fbx
+  artifactKey: Guid(54a639d34870311499ec9dc5c351ede9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Bush/Bush02.fbx using Guid(54a639d34870311499ec9dc5c351ede9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746b20094f7d82fda6483aa306607e70') in 0.037985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Junkyard models/Models/Barrier/Barrier.obj
+  artifactKey: Guid(b68c72ed5517705458d50fb6e935c659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Barrier/Barrier.obj using Guid(b68c72ed5517705458d50fb6e935c659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab041b2d90c9848207ec1c1d5c9c37a2') in 0.015580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/nappin/Weapon Props Softpack/Models/(Msh)WaterGun.fbx
+  artifactKey: Guid(36d0f722a0b9ba047b5c46a84540ced6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Weapon Props Softpack/Models/(Msh)WaterGun.fbx using Guid(36d0f722a0b9ba047b5c46a84540ced6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c958d4290e084e08ba4be0197b54d62d') in 0.020578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/nappin/Weapon Props Softpack/Models/(Msh)HuntingRifle.fbx
+  artifactKey: Guid(ce8d7a9f54256224ba078a0d140b5f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Weapon Props Softpack/Models/(Msh)HuntingRifle.fbx using Guid(ce8d7a9f54256224ba078a0d140b5f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edd06eceed7d334f18b38041bed8d34') in 0.026685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.526439 seconds.
+  path: Assets/nappin/Weapon Props Softpack/Models/(Msh)Arrow1.fbx
+  artifactKey: Guid(92da16c3de9d9964cab80c63f998b496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Weapon Props Softpack/Models/(Msh)Arrow1.fbx using Guid(92da16c3de9d9964cab80c63f998b496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccceae8d71d8ff6c083f8b778608084c') in 0.013881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/nappin/Weapon Props Softpack/Models/(Msh)Arrow2.fbx
+  artifactKey: Guid(0c645db53b0c96c40a3c1aae81363262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Weapon Props Softpack/Models/(Msh)Arrow2.fbx using Guid(0c645db53b0c96c40a3c1aae81363262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8641ed60cc7e7758169c7caa7f6891ed') in 0.014889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/nappin/Weapon Props Softpack/Models/(Msh)Cutlass2.fbx
+  artifactKey: Guid(e9c0e4380b12be34eb771528c9e76dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Weapon Props Softpack/Models/(Msh)Cutlass2.fbx using Guid(e9c0e4380b12be34eb771528c9e76dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d443c14203fcf4e52edd42eaafa7e40') in 0.014804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/nappin/Weapon Props Softpack/Models/(Msh)Chainsaw.fbx
+  artifactKey: Guid(98a72d795d54b3d46a19712714d2959c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Weapon Props Softpack/Models/(Msh)Chainsaw.fbx using Guid(98a72d795d54b3d46a19712714d2959c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51545f7127918fb3d0688754a28aec8') in 0.015776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/nappin/Weapon Props Softpack/Models/(Msh)Dynamite.fbx
+  artifactKey: Guid(4982a1118672c2e4b911cbfe1de3f91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Weapon Props Softpack/Models/(Msh)Dynamite.fbx using Guid(4982a1118672c2e4b911cbfe1de3f91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da92610c3f5ee6e03664cc771fe49439') in 0.015748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/nappin/Weapon Props Softpack/Models/(Msh)Bat.fbx
+  artifactKey: Guid(815741b95d43f6248a93c225190ee791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Weapon Props Softpack/Models/(Msh)Bat.fbx using Guid(815741b95d43f6248a93c225190ee791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6f85836dd85756edf5681bd58d5e03') in 0.016534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.902588 seconds.
+  path: Assets/Junkyard models/Models/Car/Car0.obj
+  artifactKey: Guid(16c22f076c0692346926d742911bb8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Car/Car0.obj using Guid(16c22f076c0692346926d742911bb8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d043f3d0985ed4ed498b8367d065c0b') in 0.021898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Junkyard models/Models/Cargo/CargoA1.obj
+  artifactKey: Guid(00ba75879d6ef5745a4888259bde7c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Cargo/CargoA1.obj using Guid(00ba75879d6ef5745a4888259bde7c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f299d2cdedce9fdf7a1e3333043d1c63') in 0.017906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Junkyard models/Models/Electric/Electric02.obj
+  artifactKey: Guid(ba97e6e510dc7c1468c9a56e646434c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Electric/Electric02.obj using Guid(ba97e6e510dc7c1468c9a56e646434c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9758b2e3ccaf24155118f84ed27c2e7a') in 0.017979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Junkyard models/Models/Electric/Electric01.obj
+  artifactKey: Guid(f9a168d4eac5b6041851d989494d02da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Electric/Electric01.obj using Guid(f9a168d4eac5b6041851d989494d02da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f13955671c50a24baf1475df4a27965') in 0.017657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Junkyard models/Models/Car/Car1.obj
+  artifactKey: Guid(3b6f5a7a1b9d5b44ba0d8136fcab450e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Car/Car1.obj using Guid(3b6f5a7a1b9d5b44ba0d8136fcab450e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a32e62501a47a7388dbddf1522a03c0') in 0.021320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Junkyard models/Models/Cargo/CargoC1.obj
+  artifactKey: Guid(034ba005b2423b84ebc087e917744363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Cargo/CargoC1.obj using Guid(034ba005b2423b84ebc087e917744363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7ea1314acfeb0694676fbd38d305bf') in 0.022385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Junkyard models/Models/Electric/Electric03.obj
+  artifactKey: Guid(69127c81c3fbd1b4381e245b1b5f434f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Electric/Electric03.obj using Guid(69127c81c3fbd1b4381e245b1b5f434f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2dfea157d415e5301857430c46eee71') in 0.018611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Junkyard models/Models/Cargo/CargoB1.obj
+  artifactKey: Guid(1a4c663dc60c3ec47be0d5adb5bf3168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Cargo/CargoB1.obj using Guid(1a4c663dc60c3ec47be0d5adb5bf3168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab3763a8a78152f8b27ce8c82b25ae0') in 0.018719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LowPolyFPSLite/Models/Jug_01.fbx
+  artifactKey: Guid(346ea8ab0a1c21c4e95694bac3863161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPSLite/Models/Jug_01.fbx using Guid(346ea8ab0a1c21c4e95694bac3863161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da572b1898466467a2180b814901669a') in 0.012153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Junkyard models/Models/GasPump/GasPump.obj
+  artifactKey: Guid(e01fb1a694c3dc34294327117e516909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/GasPump/GasPump.obj using Guid(e01fb1a694c3dc34294327117e516909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c4381f46ed12d65a7d0bb978b795ae') in 0.020228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Junkyard models/Models/Cargo/CargoC0.obj
+  artifactKey: Guid(463e9d66ec2b7ad428d27c80a2b2d1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Cargo/CargoC0.obj using Guid(463e9d66ec2b7ad428d27c80a2b2d1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29bf8a8e1a8933fe67ea97bffb13e6d') in 0.018325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Junkyard models/Models/Cart/Cart.obj
+  artifactKey: Guid(7cd293d8f69b3fa4292d2bf6b4e60304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Cart/Cart.obj using Guid(7cd293d8f69b3fa4292d2bf6b4e60304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85ceddc1751e50a95fd1b0c4aee778a') in 0.018086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.052293 seconds.
+  path: Assets/Junkyard models/Models/Locker/Locker1.obj
+  artifactKey: Guid(7b588d47215c10740bc4d5913633d62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Locker/Locker1.obj using Guid(7b588d47215c10740bc4d5913633d62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26501d796f002d1e10f7621f4d16067c') in 0.018298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Junkyard models/Models/Pallet/Pallet.obj
+  artifactKey: Guid(321164d6a31a5974387d909fa161059c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Pallet/Pallet.obj using Guid(321164d6a31a5974387d909fa161059c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7477a0a61f2220ce156f13ed849608e') in 0.018369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Ball Pack/Models/WheelBall.fbx
+  artifactKey: Guid(74cbada03bcd41d49acec56746acf71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ball Pack/Models/WheelBall.fbx using Guid(74cbada03bcd41d49acec56746acf71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61b4b1bf9f455a9a5bae1e0b61a2db8') in 0.021253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyFPSLite/Models/Wall_03.fbx
+  artifactKey: Guid(a54bb0fbf93b09440a77975415674e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPSLite/Models/Wall_03.fbx using Guid(a54bb0fbf93b09440a77975415674e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8325f7cfe94d8a2d64d629f201c019') in 0.011262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Junkyard models/Models/Wheelbarrow/Wheelbarrow.obj
+  artifactKey: Guid(8f34ed2beed43e54092d2d99fe8e3f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Wheelbarrow/Wheelbarrow.obj using Guid(8f34ed2beed43e54092d2d99fe8e3f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d23992cb61481b30f8e73dcc28613aa') in 0.019120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Junkyard models/Models/Refrigerator/Refrigerator.obj
+  artifactKey: Guid(0516743991c34824caee1343a7eb1563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Refrigerator/Refrigerator.obj using Guid(0516743991c34824caee1343a7eb1563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1876efb765a1367388e6dc2aac553651') in 0.017234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Junkyard models/Models/Rack/Rack2.obj
+  artifactKey: Guid(30f3817de14beb44b83c985c71075de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Rack/Rack2.obj using Guid(30f3817de14beb44b83c985c71075de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd218a4762c9810298764952060a769') in 0.019432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Junkyard models/Models/Sink/Sink.obj
+  artifactKey: Guid(926564bed8347d441a4bb1bdce21a3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Sink/Sink.obj using Guid(926564bed8347d441a4bb1bdce21a3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1487b94e138bc3154d269d5081d63eb') in 0.016278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ball Pack/Models/SplitMetalBall.fbx
+  artifactKey: Guid(5ae1b6d4c894f9c449d33837a633a8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ball Pack/Models/SplitMetalBall.fbx using Guid(5ae1b6d4c894f9c449d33837a633a8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf356b329c073f200b705c1bca79c34') in 0.018620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Ball Pack/Models/SpikeBall.fbx
+  artifactKey: Guid(c455996f6e6b49d418895f41b5216202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ball Pack/Models/SpikeBall.fbx using Guid(c455996f6e6b49d418895f41b5216202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6030dc514b9c620a6ad6ea46c050fbc') in 0.107799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowPolyFPSLite/Models/WoodPlank_01.fbx
+  artifactKey: Guid(d2fe27ef7bd8aa942b87f1e38ebb7311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPSLite/Models/WoodPlank_01.fbx using Guid(d2fe27ef7bd8aa942b87f1e38ebb7311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb352a52176a34522d4541c72894ee6c') in 0.010963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Junkyard models/Models/Rack/Rack1.obj
+  artifactKey: Guid(7ec1c342e5a0c31458aa3915e580d58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Rack/Rack1.obj using Guid(7ec1c342e5a0c31458aa3915e580d58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb74c7f5930fa67ab896f147a9c70e9e') in 0.023175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Junkyard models/Models/Trap/Trap.obj
+  artifactKey: Guid(aa01c5dd65f0d5c46bf632a717167e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Trap/Trap.obj using Guid(aa01c5dd65f0d5c46bf632a717167e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44d24f94d87349aae9846ed6e53c7a2') in 0.020480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Junkyard models/Models/Pallet/PalletBoxes.fbx
+  artifactKey: Guid(310cbc23a1bc7b74ab72a484a2800e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Pallet/PalletBoxes.fbx using Guid(310cbc23a1bc7b74ab72a484a2800e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2732a84edfd773bc21ea103e6f9bea') in 0.017648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowPolyFPSLite/Models/Stairs_01.fbx
+  artifactKey: Guid(5412998123e133b4da183e46471b4069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPSLite/Models/Stairs_01.fbx using Guid(5412998123e133b4da183e46471b4069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9780dc8d4e2a5296cb2ca49343a5df63') in 0.013247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Junkyard models/Models/Reel/Reel.obj
+  artifactKey: Guid(d55fe43a10c07b1488b091b40a3ec767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Reel/Reel.obj using Guid(d55fe43a10c07b1488b091b40a3ec767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b1f5acd3901801c8f180b97f8d9585') in 0.019483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Junkyard models/Models/Rack/Rack0.obj
+  artifactKey: Guid(d5427507dd9b82c4b9c5082baf00a9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Rack/Rack0.obj using Guid(d5427507dd9b82c4b9c5082baf00a9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75a874bc2cbd6a6201850fb9789265e') in 0.020447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 634.422266 seconds.
+  path: Assets/Junkyard models/Scenes/Models/Materials/Rooms.mat
+  artifactKey: Guid(c9f01691894428b48bc96b66fd2f32b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Scenes/Models/Materials/Rooms.mat using Guid(c9f01691894428b48bc96b66fd2f32b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73c4af6de320eb41c0cc3c7e886d850') in 0.014955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Junkyard models/Models/Trap/Materials/Trap.mat
+  artifactKey: Guid(5a6d3cd00023c904f8e7210b1a34d78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Trap/Materials/Trap.mat using Guid(5a6d3cd00023c904f8e7210b1a34d78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44708797f334561598f3b8c62a9713c4') in 0.009657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001815 seconds.
+  path: Assets/Junkyard models/Scenes/Models/Materials/Terrain.mat
+  artifactKey: Guid(c56502fba5357f44bb1de24421fce5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Scenes/Models/Materials/Terrain.mat using Guid(c56502fba5357f44bb1de24421fce5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a248ae85091942efae22bb1050dfa95b') in 0.012650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Junkyard models/Models/TV/Materials/TV01.mat
+  artifactKey: Guid(1420a66c64e6ee74db39d71cfe57e159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/TV/Materials/TV01.mat using Guid(1420a66c64e6ee74db39d71cfe57e159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfaca1500e0c3de557e4b3cc667fdf45') in 0.021461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Junkyard models/Models/WoodenPile/Materials/WoodenPile.mat
+  artifactKey: Guid(eef2c7dec93eb3d46b22fa10ba103652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/WoodenPile/Materials/WoodenPile.mat using Guid(eef2c7dec93eb3d46b22fa10ba103652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2391b8c75830865ee6b7b8bda3e49e') in 0.015044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Junkyard models/Models/Wash/Materials/Wash.mat
+  artifactKey: Guid(311c569f4aeb82b41a92e2807d508aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Wash/Materials/Wash.mat using Guid(311c569f4aeb82b41a92e2807d508aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1eff89c3cc0fba78607cd8594b5040') in 0.012795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Junkyard models/Models/Sink/Materials/Sink.mat
+  artifactKey: Guid(398659965bca0e74da79b2a38a83aff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Sink/Materials/Sink.mat using Guid(398659965bca0e74da79b2a38a83aff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3196f947306d98919979e8afb58b24d') in 0.013210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
